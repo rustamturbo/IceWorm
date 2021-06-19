@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BackGround\Parallax.cs" />
      <Compile Include="Assets\Scripts\CheckPlayerCollider.cs" />
+     <Compile Include="Assets\Scripts\SizeChecker.cs" />
      <Compile Include="Assets\Scripts\VulnerableCollider.cs" />
      <Compile Include="Assets\Scripts\Head.cs" />
      <Compile Include="Assets\Scripts\MenuButtonFunc.cs" />
@@ -67,7 +68,6 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\StoryCamera.cs" />
      <Compile Include="Assets\Scripts\Bomb.cs" />
-     <Compile Include="Assets\Scripts\SizeChecker.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

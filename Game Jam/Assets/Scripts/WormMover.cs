@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Destructible2D.Examples;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WormMover: MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class WormMover: MonoBehaviour
     public Rigidbody2D _rb;
     public Transform Head;
     public float RotationForce;
-    public GameObject Ground;
+    public GameObject[] Grounds;
     public D2dRepeatStamp rs;
     private float _time;
     public bool IsDash;
@@ -76,14 +77,18 @@ public class WormMover: MonoBehaviour
         Animator.SetBool("Dashing", true);
         _time = 0;
         rs.enabled = true;
-        Ground.layer = 6;
+        for (int i = 0; i < Grounds.Length; i++){
+            Grounds[i].layer = LayerMask.NameToLayer("IgnorePlayer");
+        }
     }
 
     void OnGroundCollider(){
         Animator.SetBool("Dashing", false);
         _time = 0;
         rs.enabled = false;
-        Ground.layer = 0;
+        for (int i = 0; i < Grounds.Length; i++){
+            Grounds[i].layer = LayerMask.NameToLayer("Default");
+        }
     }
 
 }

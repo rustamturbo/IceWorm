@@ -26,7 +26,6 @@ public class Bug : MonoBehaviour
     private void Start(){
         _startPos = transform.position;
         point = GetRandomPointOnBox(PatrolRadius);
-        
     }
 
     private void Update(){

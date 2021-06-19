@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class Parallax: MonoBehaviour
 {
+    public Transform minTransform;
     private Vector3 _startPos;
-    public float ParallaxEffect;
+    public float ParallaxEffectX;
+    public float ParallaxEffectY;
     [SerializeField] private Transform _cameraTransform;
 
 
-   
     private void Start(){
         _startPos = transform.position;
     }
@@ -19,8 +20,9 @@ public class Parallax: MonoBehaviour
     private void FixedUpdate(){
 
 
-        float dist =  (_cameraTransform.position.x - _startPos.x) * ParallaxEffect;
-        transform.position = new Vector3(_startPos.x + dist, transform.position.y, 0);
+        float distX = (_cameraTransform.position.x - _startPos.x) * ParallaxEffectX;
+        float distY = (_cameraTransform.position.y - _startPos.y) * ParallaxEffectY;
+        transform.position = new Vector3(_startPos.x + distX, Mathf.Clamp((_startPos.y + distY), minTransform.position.y, Mathf.Infinity), 0);
     }
 
 }

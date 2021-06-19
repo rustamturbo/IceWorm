@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd6e48794963be489d577545350b8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FoodValue: 0
+  FoodValue: 1
