@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Game Jam.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\User\Documents\GitHub\Be-Fly\Game Jam\.idea\.idea.Game Jam\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

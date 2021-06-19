@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{16a98428-83f9-b976-5683-2de3627f8e6e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructible2D", "Destructible2D.csproj", "{c27dcabe-551a-0f52-e51b-6f2bd80ad731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16a98428-83f9-b976-5683-2de3627f8e6e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16a98428-83f9-b976-5683-2de3627f8e6e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16a98428-83f9-b976-5683-2de3627f8e6e}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16a98428-83f9-b976-5683-2de3627f8e6e}.Release|Any CPU.Build.0 = Release|Any CPU
+		{c27dcabe-551a-0f52-e51b-6f2bd80ad731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c27dcabe-551a-0f52-e51b-6f2bd80ad731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c27dcabe-551a-0f52-e51b-6f2bd80ad731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{c27dcabe-551a-0f52-e51b-6f2bd80ad731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
